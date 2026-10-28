@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+    <defs>
+        <linearGradient id="grad_3f9d8288f7dc1bd6d616dcfb56b5081c" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0a3d62"/>
+            <stop offset="100%" stop-color="#3c6382"/>
+        </linearGradient>
+        <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#ffeaa7"/>
+            <stop offset="50%" stop-color="#fdcb6e"/>
+            <stop offset="100%" stop-color="#e17055"/>
+        </linearGradient>
+        <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+            <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.4"/>
+        </filter>
+    </defs>
+    <!-- Background -->
+    <rect width="800" height="500" fill="url(#grad_3f9d8288f7dc1bd6d616dcfb56b5081c)"/>
+    
+    <!-- Decorative Stars/Aura -->
+    <circle cx="400" cy="220" r="160" fill="#ffc048" opacity="0.12"/>
+    <circle cx="400" cy="220" r="220" fill="#ffc048" opacity="0.06"/>
+    
+    <!-- Stylized Architectural Artwork -->
+    <g transform="translate(400, 210)" text-anchor="middle">
+        <!-- Mandir / Shikhara silhouette -->
+        <path d="M-80,90 L-80,40 L-40,-30 L0,-110 L40,-30 L80,40 L80,90 Z" fill="#ffc048" opacity="0.85" filter="url(#shadow)"/>
+        <!-- Amalaka and Kalash -->
+        <circle cx="0" cy="-115" r="12" fill="#fff" opacity="0.95"/>
+        <!-- 52 Gaj Dhwaja (Flag) -->
+        <path d="M0,-125 L0,-165 L45,-145 L0,-135" fill="#ff7675" stroke="#ffeaa7" stroke-width="2"/>
+        <!-- Inner Sanctum Door -->
+        <path d="M-25,90 L-25,50 Q0,30 25,50 L25,90 Z" fill="#2d3436" opacity="0.5"/>
+        <!-- Side mini Shikharas -->
+        <path d="M-130,90 L-130,60 L-100,10 L-80,50 L-80,90 Z" fill="#ffc048" opacity="0.6"/>
+        <path d="M80,90 L80,50 L100,10 L130,60 L130,90 Z" fill="#ffc048" opacity="0.6"/>
+        <!-- Base steps -->
+        <rect x="-180" y="90" width="360" height="15" rx="4" fill="#dfe6e9" opacity="0.9"/>
+        <rect x="-210" y="105" width="420" height="12" rx="3" fill="#b2bec3" opacity="0.8"/>
+    </g>
+
+    <!-- Water Ripples / Base Landscape -->
+    <path d="M0,380 Q200,350 400,380 T800,380 L800,500 L0,500 Z" fill="#000" opacity="0.35"/>
+    <path d="M0,400 Q200,370 400,400 T800,400 L800,500 L0,500 Z" fill="#000" opacity="0.4"/>
+
+    <!-- Gujarati Title & Tagline Card -->
+    <rect x="50" y="380" width="700" height="95" rx="12" fill="#0b1b36" opacity="0.9" stroke="#ffc048" stroke-width="1.5" filter="url(#shadow)"/>
+    
+    <text x="400" y="420" font-family="'Noto Sans Gujarati', 'Segoe UI', sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">
+        દ્વારકા બીચ &amp; દીવાદાંડી
+    </text>
+    <text x="400" y="452" font-family="'Noto Sans Gujarati', 'Segoe UI', sans-serif" font-size="14" fill="#ffc048" text-anchor="middle">
+        ૪૩ મીટર ઊંચી ઐતિહાસિક દીવાદાંડી &amp; સાગર દર્શન
+    </text>
+    
+    <!-- Top badge -->
+    <rect x="290" y="25" width="220" height="32" rx="16" fill="#ffc048" opacity="0.95"/>
+    <text x="400" y="46" font-family="'Noto Sans Gujarati', 'Segoe UI', sans-serif" font-size="14" font-weight="bold" fill="#0b1b36" text-anchor="middle">
+        જય શ્રી દ્વારકાધીશ
+    </text>
+</svg>
